@@ -164,7 +164,7 @@ body{
         line-height: 3rem;
         padding: 0 2.4rem;
         position: relative;
-        flex: 1;
+        // flex: 1;
         @include breakpoint-max(b-iPad){
             padding: 2.8rem 0;  
             flex:none;
@@ -199,15 +199,15 @@ body{
         &:first-of-type{
             padding-left: 0;
         }
-        &:nth-child(2){
-            flex:2;
-            @include breakpoint-max(b-iPad){
-                flex:none;
-            } 
-            @include breakpoint(iPad-pro){
-                flex:none;
-            }
-        }
+        // &:nth-child(2){
+        //     flex:2;
+        //     @include breakpoint-max(b-iPad){
+        //         flex:none;
+        //     } 
+        //     @include breakpoint(iPad-pro){
+        //         flex:none;
+        //     }
+        // }
         &:nth-child(3n){
             &::after{
                 @include breakpoint(iPad){
