@@ -335,6 +335,17 @@ body{
             line-height: 2.2rem;
             margin-bottom: 3rem;
         }
+        .speaker {
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 2.2rem;
+        }
+        .designation {
+            font-size: 1.4rem;
+            line-height: 2rem;
+            margin-bottom: 2rem;
+            color: #3B5C76;
+        }
     }
     .col-lg-4{
         &:first-of-type{
